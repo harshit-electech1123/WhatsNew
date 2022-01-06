@@ -1,0 +1,224 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* body{
+        background: yellow;
+    } */
+    .waviy{
+        display: block;
+        margin: auto;
+    }
+    .text-big{
+        font-size: 20px;
+        display: block;
+        margin: auto;
+    }
+    .text-small{
+        font-size: 10px;
+        display: block;
+        margin: auto;
+    }
+    .waviy span {
+        font-size: 20px;
+      }
+    .box-main{
+        flex-direction: column;
+    }
+    .firstHalf{
+        width: 90%;
+    }
+    .left{
+        width: 75%;
+    }
+    .left p{
+        font-size: 17px;
+    }
+    .btn{
+        font-size: 9px;
+        margin: 10px;
+    }
+    .secondHalf img{
+        display: none;
+    }
+    .accordion-body{
+        font-size: 12px;
+        flex-direction: column;
+    }
+    .accordion-body img{
+        width: 50%;
+    }
+    .accordion-button{
+        font-size: 10px;
+    }
+    #newsApp{
+        width: 75%;
+    }
+    #headArea{
+        height: 2.2em;
+    }
+    .newsStory{
+        flex-direction: column;
+    }
+    .newsImg{
+        width: 70%;
+    }
+    #searchLab{
+        font-size: 15px;
+        display: none;
+    }
+    #searchArticles{
+        font-size: 16px;
+        width: 50px;
+    }
+    #refresh{
+        font-size: 16px;
+        width: 50px;
+    }
+    .newsDesc{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .newsSource{
+        font-size: 16px;
+    }
+    .readMore{
+        font-size: 13px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* body{
+        background: green;
+    } */
+    .text-big{
+        font-size: 25px;
+    }
+    .text-small{
+        font-size: 12px;
+    }
+    .waviy span {
+        font-size: 32px;
+      }
+    .firstHalf{
+        width: 90%;
+    }
+    .left{
+        width: 75%;
+    }
+    .left p{
+        font-size: 35px;
+    }
+    .btn{
+        font-size: 11px;
+    }
+    .accordion-body{
+        font-size: 16px;
+    }
+    /* .accordion-body img{
+        width: 30%;
+    } */
+    .accordion-button{
+        font-size: 14px;
+    }
+    #newsApp{
+        width: 75%;
+    }
+    #headArea{
+        height: 2.8em;
+    }
+    #searchLab{
+        font-size: 15px;
+    }
+    #searchArticles{
+        font-size: 20px;
+        width: 50px;
+    }
+    #refresh{
+        font-size: 20px;
+        width: 50px;
+    }
+    .newsDesc{
+        font-size: 21px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    .newsSource{
+        font-size: 20px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    /* body{
+        background: blue;
+    } */
+    .text-big{
+        font-size: 32px;
+    }
+    .text-small{
+        font-size: 16px;
+    }
+    .waviy span {
+        font-size: 45px;
+      }
+    .firstHalf{
+        width: 90%;
+    }
+    .left{
+        width: 80%;
+    }
+    .left p{
+        font-size: 45px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .accordion-body{
+        font-size: 16px;
+    }
+    /* .accordion-body img{
+        width: 30%;
+    } */
+    .accordion-button{
+        font-size: 16px;
+    }
+    #newsApp{
+        width: 80%;
+    }
+    #headArea{
+        height: 3em;
+    }
+    #searchLab{
+        font-size: 18px;
+    }
+    #searchArticles{
+        font-size: 24px;
+        width: 65px;
+    }
+    #refresh{
+        font-size: 24px;
+        width: 65px;
+    }
+    .newsDesc{
+        font-size: 23px;
+    }
+    h2{
+        font-size: 29px;
+    }
+    .newsSource{
+        font-size: 22px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* body{
+        background: brown;
+    } */
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* body{
+        background: pink;
+    } */
+}
